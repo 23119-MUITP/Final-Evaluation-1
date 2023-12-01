@@ -1,0 +1,305 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  header {
+    background-color: #9e91df;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature i {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    display: block;
+    color: #007bff;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .feature p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  #cta {
+    background-color: #ff0084;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  #cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+  }
+
+
+#meet-the-team {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  #meet-the-team h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+
+  
+
+#newsletter {
+    background-color: #034d17;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  #newsletter h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  #newsletter-form {
+    text-align: center;
+  }
+  
+  #newsletter-form label {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  #newsletter-form input {
+    width: 80%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #newsletter-form button {
+    padding: 20px 40px;
+    font-size: 1.4em;
+    border: none;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #newsletter-form button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  #thank-you-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4em;
+    display: none;
+    color: #fff;
+  }
+  
+ 
+
+#contact-us {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+  }
+  
+  #contact-us h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  #query-form {
+    text-align: center;
+  }
+  
+  #query-form label {
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #query-form input,
+  #query-form textarea {
+    width: 80%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  #query-form textarea {
+    resize: vertical;
+  }
+  
+  #query-form button {
+    padding: 20px 40px;
+    font-size: 1.4em;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #query-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #gratitude-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4em;
+    display: none;
+    color: #007bff;
+  }
+  
+  
+
+#testimonials {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .testimonial {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonial blockquote {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .testimonial-author {
+    font-size: 1.2em;
+    color: #007bff;
+  }

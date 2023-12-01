@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangout App</title>
+  <link rel="stylesheet" href="final evaluation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hangout</h1>
+      <p>Your personalized adventure app</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="features">
+      <div class="container">
+        <h2>Discover Endless Adventures</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <i class="fas fa-rocket"></i>
+            <h3>Personalized Adventures</h3>
+            <p>Explore exciting activities tailored to your interests and mood.</p>
+          </div>
+
+          
+          <div class="feature">
+            <i class="fas fa-users"></i>
+            <h3>Social Matchmaker</h3>
+            <p>Connect with like-minded adventurers and create unforgettable memories together.</p>
+          </div>
+
+          
+          <div class="feature">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Ultimate Event Planner</h3>
+            <p>Effortlessly plan group trips and outings, making every moment count.</p>
+          </div>
+
+         
+          <div class="feature">
+            <i class="fas fa-heart"></i>
+            <h3>Never Be Bored Again</h3>
+            <p>Access a pocket-sized solution to endless fun and social connections.</p>
+          </div>
+
+          
+          <div class="feature">
+            <i class="fas fa-comments"></i>
+            <h3>Community-Powered</h3>
+            <p>Join a vibrant community sharing reviews, tips, and recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <div class="container">
+        <h2>Start Your Adventure Today!</h2>
+        <button onclick="redirectToApp()">Get the App</button>
+      </div>
+    </section>
+  </main>
+
+  
+
+<section id="meet-the-team">
+    <div class="container">
+      <h2>Meet the Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="dhruv.jpg" alt="Dhruv's Photo">
+          <h3>Dhruv</h3>
+          <p>The adventurous mind behind our personalized adventures. Dhruv knows how to turn any day into an epic journey, even if it's just finding the best coffee shop in town. He's the rocket fuel of our team!</p>
+        </div>
+  
+        <div class="team-member">
+          <img src="ishika.jpg" alt="Ishika's Photo">
+          <h3>Ishika</h3>
+          <p>Social connections and matchmaker extraordinaire. Ishika is the heart of our community-powered platform. Whether it's planning events or bringing people together, she makes sure every moment is unforgettable.</p>
+        </div>
+  
+        <div class="team-member">
+          <img src="shivangi.jpg" alt="Shivangi's Photo">
+          <h3>Shivangi</h3>
+          <p>Our ultimate event planner, Shivangi ensures that every group trip and outing is a masterpiece. With an eye for detail and a passion for making memories, she turns ordinary moments into extraordinary experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+<section id="newsletter">
+    <div class="container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form id="newsletter-form" action="#" method="post" onsubmit="return handleFormSubmit()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="thank-you-message" style="display: none;">
+        <p>Thank you for subscribing to our newsletter!</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <script>
+    function handleFormSubmit() {
+      
+      document.getElementById('thank-you-message').style.display = 'block';
+  
+      return false;
+    }
+  </script>
+
+
+<section id="contact-us">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="query-form" action="#" method="post" onsubmit="return handleQuerySubmit()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+  
+        <label for="email">Email (Gmail):</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="query">Your Query or Feedback:</label>
+        <textarea id="query" name="query" rows="4" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+      <div id="gratitude-message" style="display: none;">
+        <p>Thank you for reaching out! We'll get back to you soon.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <script>
+    function handleQuerySubmit() {
+      
+  
+      document.getElementById('gratitude-message').style.display = 'block';
+  
+      return false;
+    }
+  </script>
+
+
+<section id="testimonials">
+    <div class="container">
+      <h2>What Our Users Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <blockquote>
+            "Hangout is a game-changer! It helped me discover amazing adventures tailored to my interests. Highly recommend it for anyone looking to spice up their routine."
+          </blockquote>
+          <p class="testimonial-author">Swati Ganeti</p>
+        </div>
+  
+        <div class="testimonial">
+          <blockquote>
+            "As a social person, Hangout has been my go-to app for connecting with like-minded adventurers. It's a fantastic way to make new friends and create lasting memories."
+          </blockquote>
+          <p class="testimonial-author">Pratham Mittal</p>
+        </div>
+  
+        <div class="testimonial">
+          <blockquote>
+            "Hangout is a wonderful initiative that promotes social engagement and community building. It aligns perfectly with the vision of a vibrant and connected society."
+          </blockquote>
+          <p class="testimonial-author">Narendra Modi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Hangout. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
